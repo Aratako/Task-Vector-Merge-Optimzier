@@ -1,0 +1,9 @@
+transformers
+sentencepiece
+protobuf
+optuna
+accelerate
+cmaes
+bitsandbytes
+pandas
+pyyaml
