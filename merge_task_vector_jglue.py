@@ -33,7 +33,7 @@ def evaluate(model, tokenizer, config):
             score += task_result["exact_match"] / 100
         else:
             score += task_result["acc"]
-    return score / jglue_tasks
+    return score / len(jglue_tasks)
 
 
 def update_model_parameters(
